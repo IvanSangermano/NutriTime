@@ -1,0 +1,20 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.content {
+  flex-grow: 1;
+  width: 95vw;
+}
+.body{
+  align-content: space-between;
+  width: 100%;
+}
+
+@media (min-width: 1250px) {
+  .content{
+    margin-left: 220px;
+    width: 85%;
+  }
+}

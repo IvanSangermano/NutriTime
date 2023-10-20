@@ -1,0 +1,27 @@
+.specializationsContainter {
+  display: flex;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.actionsContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.7rem;
+}
+.permissionSet{
+  display: flex;
+  flex-direction: row;
+  justify-content:initial;
+  padding-left: 0.8rem;
+  margin: 0.2rem;
+  border: 2px solid rgb(230, 215, 215);
+  border-radius: 10px;
+}
+.permissionCombo{
+  display: flex;
+  flex-direction: column;
+}
+.actionTitle{
+  color: #102541;
+  font-size: 2rem;
+}

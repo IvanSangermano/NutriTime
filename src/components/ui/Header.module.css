@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  color: #023859;
+  font-size: 2rem;
+  padding-right: 1rem;
+  flex-wrap: wrap;
+}
+.logoAndTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header h1 {
+  color: #fff;
+  margin: 0;
+}
+.header img{
+  width: 5rem;
+  margin-right: 2rem;
+  margin-left: 4rem;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column-reverse;
+    padding-top: 3rem;
+    margin-right: 0rem;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header img{
+    width: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 1250px) {
+  .header{
+    margin-left: 120px;
+  }
+}
+

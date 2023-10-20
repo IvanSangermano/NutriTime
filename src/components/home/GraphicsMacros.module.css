@@ -1,0 +1,26 @@
+.graphics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    z-index: -1;
+}
+.pie{
+    width: 50%;
+}
+.gauge{
+    width: 50%;
+}
+
+@media (max-width: 1600px) {
+    .graphics{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pie{
+        width: 100%;
+    }
+    .gauge{
+        width: 100%;
+    }
+}
